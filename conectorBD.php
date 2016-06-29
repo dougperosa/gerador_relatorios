@@ -2,10 +2,10 @@
 // Na linha abaixo chamaremos a classe "conexao" (que dever? ser fechada apenas no final do ficheiro).
 class conexao {
 	
-	var $host = "192.168.1.4"; // Nome ou IP do Servidor
-	var $user = "root"; // Usu�rio do Servidor MySQL
-	var $senha = "3ds#5fvg"; // Senha do Usu�rio MySQL
-	var $dbase = "unimed"; // Nome do seu Banco de Dados
+	var $host = ""; // Nome ou IP do Servidor
+	var $user = ""; // Usu�rio do Servidor MySQL
+	var $senha = ""; // Senha do Usu�rio MySQL
+	var $dbase = ""; // Nome do seu Banco de Dados
 	                           
 	// Criaremos as vari�veis que Utilizaremos no script
 	var $query;
