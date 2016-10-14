@@ -80,7 +80,10 @@
                 <div class="arrow"></div>
                 <ul style="height: 10px"></ul>
                 <ul style="height: 30px" onclick="escondeMenu('utilitarios')"><a href="filtros.php">Filtros</a></ul>
+                <ul style="height: 30px" onclick="escondeMenu('utilitarios')"><a href="estatistico_planos.php">Estat&iacute;stico de Planos</a></ul>
                 <ul style="height: 30px" onclick="escondeMenu('utilitarios')"><a href="extrato_beneficiario.php">Extrato Benefici&aacute;rio</a></ul>
+                <ul style="height: 30px" onclick="escondeMenu('utilitarios')"><a href="layout_exportacoes.php">Exporta&ccedil;&otilde;es TOTVS</a></ul>
+                <ul style="height: 30px" onclick="escondeMenu('utilitarios')"><a href="rdc28.php">RDC 28</a></ul>
                 <ul style="height: 30px" onclick="escondeMenu('utilitarios')"><a href="usuarios.php">Usu&aacute;rios</a></ul>
             </div>
         </div>

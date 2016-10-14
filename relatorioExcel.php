@@ -17,7 +17,8 @@ $objPHPExcel->getActiveSheet()->getStyle('A1')->getFont()->setBold(true);
 
 $objPHPExcel->setActiveSheetIndex(0)->setCellValue('A1', date('d/m/Y'));
 
-$letras = array(0 => 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z');
+$letras = array(0 => 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
+    'AA', 'AB', 'AC', 'AD', 'AE', 'AF', 'AG', 'AH', 'AI', 'AJ', 'AK', 'AL', 'AM', 'AN', 'AO', 'AP', 'AQ', 'AR', 'AS', 'AT', 'AU', 'AV', 'AW', 'AX', 'AZ',);
 
 for ($x = 0; $x < mysql_num_fields($resultset); $x++) {
     $objPHPExcel->setActiveSheetIndex(0)->setCellValue($letras[$x] . '2', mysql_field_name($resultset, $x));
